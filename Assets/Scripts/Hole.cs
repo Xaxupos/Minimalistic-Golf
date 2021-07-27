@@ -9,9 +9,9 @@ public class Hole : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Ball"))
         {
-            if(Mathf.Abs(other.gameObject.GetComponent<Rigidbody2D>().velocity.magnitude) < 5f)
+            if(Mathf.Abs(other.gameObject.GetComponent<Rigidbody2D>().velocity.magnitude) < 7f)
             {
-                if(SceneManager.GetActiveScene().buildIndex == 10)
+                if(SceneManager.GetActiveScene().buildIndex == 11)
                     LoadMainMenu();
                 else
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

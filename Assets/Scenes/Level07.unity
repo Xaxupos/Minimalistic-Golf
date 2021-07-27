@@ -670,7 +670,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
-  m_Color: {r: 0.09794411, g: 0.2924528, b: 0.12941177, a: 1}
+  m_Color: {r: 0.16078432, g: 0.4509804, b: 0.14117648, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1201,7 +1201,6 @@ MonoBehaviour:
   ball: {fileID: 9165442041151349336}
   hitsText: {fileID: 340901197}
   maxHitsText: {fileID: 1452950888}
-  pressR: {fileID: 0}
   maxHits: 2
   restartButton: {fileID: 1200517539}
 --- !u!4 &1399629102
@@ -1778,11 +1777,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5296956633206639339, guid: 07f5aa5a5e4cc8b4794da03c8eca00d9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.63
+      value: -4.4
       objectReference: {fileID: 0}
     - target: {fileID: 5296956633206639339, guid: 07f5aa5a5e4cc8b4794da03c8eca00d9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: -0.53
       objectReference: {fileID: 0}
     - target: {fileID: 5296956633206639339, guid: 07f5aa5a5e4cc8b4794da03c8eca00d9, type: 3}
       propertyPath: m_LocalPosition.z

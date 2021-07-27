@@ -404,7 +404,6 @@ MonoBehaviour:
   ball: {fileID: 9165442041151349336}
   hitsText: {fileID: 1504219016}
   maxHitsText: {fileID: 1602743895}
-  pressR: {fileID: 0}
   maxHits: 3
   restartButton: {fileID: 19010437}
 --- !u!4 &248657406
@@ -943,7 +942,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
-  m_Color: {r: 0.09794411, g: 0.2924528, b: 0.12941177, a: 1}
+  m_Color: {r: 0.16078432, g: 0.4509804, b: 0.14117648, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
