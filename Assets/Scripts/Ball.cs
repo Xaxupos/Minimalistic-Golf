@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
+
     [SerializeField] private float moveSpeed = 10f;
     [SerializeField] HitsTracker hitsTracker;
 
