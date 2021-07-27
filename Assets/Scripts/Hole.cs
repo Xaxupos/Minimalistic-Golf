@@ -11,7 +11,7 @@ public class Hole : MonoBehaviour
         {
             if(Mathf.Abs(other.gameObject.GetComponent<Rigidbody2D>().velocity.magnitude) < 5f)
             {
-                if(SceneManager.GetActiveScene().buildIndex == 7)
+                if(SceneManager.GetActiveScene().buildIndex == 10)
                     LoadMainMenu();
                 else
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

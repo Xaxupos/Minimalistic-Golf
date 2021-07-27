@@ -8,6 +8,8 @@ TagManager:
   - WhiteBill
   - Hole
   - Ball
+  - Lava
+  - Manager
   layers:
   - Default
   - TransparentFX

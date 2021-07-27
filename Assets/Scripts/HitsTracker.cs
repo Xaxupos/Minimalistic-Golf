@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
@@ -20,6 +21,11 @@ public class HitsTracker : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
         hitsText.text = "Hits: " + ball.Hits;
         CheckForHitsCount();
     }
