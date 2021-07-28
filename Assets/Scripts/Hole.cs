@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using MoreMountains.Feedbacks;
 using UnityEngine.SceneManagement;
 
 public class Hole : MonoBehaviour
@@ -22,7 +24,7 @@ public class Hole : MonoBehaviour
                     LoadMainMenu();
                 else
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            }              
+            }      
         }
     }
 

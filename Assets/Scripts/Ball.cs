@@ -35,7 +35,7 @@ public class Ball : MonoBehaviour
      {
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) + Vector3.back * -10;
 
-        if(canShootAgain && Hits < hitsTracker.MaxHits)
+        if(canShootAgain && Hits < hitsTracker.MaxHits && ballStopped)
         {
             if(Input.GetMouseButtonDown(0))
             {

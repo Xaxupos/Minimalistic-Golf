@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: FeelTacticalBulletImpactParticle
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -75,3 +75,4 @@ Material:
     m_Colors:
     - _Color: {r: 0.03676468, g: 0.03676468, b: 0.03676468, a: 1}
     - _EmissionColor: {r: 1.5455517, g: 0.93203336, b: 0.37502354, a: 1}
+  m_BuildTextureStacks: []
