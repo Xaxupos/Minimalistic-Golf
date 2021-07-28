@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MoreMountains.Feedbacks;
 
 public class Ball : MonoBehaviour
 {
 
     [SerializeField] private float moveSpeed = 10f;
     [SerializeField] HitsTracker hitsTracker;
+    [SerializeField] MMFeedbacks shootFeedback;
+    [SerializeField] MMFeedbacks bounceFeedback;
 
     private LaunchPreview launchPreview;
     private Rigidbody2D rb2d;
@@ -68,6 +71,7 @@ public class Ball : MonoBehaviour
     {
         shooted = false;
         Hits++;
+        shootFeedback.PlayFeedbacks();
         rb2d.AddForce(dir * moveSpeed * dragDistance);
     }
 
@@ -115,6 +119,11 @@ public class Ball : MonoBehaviour
             ballStopped = false;
         
         return ballStopped;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) 
+    {
+        bounceFeedback.PlayFeedbacks();
     }
 
 }
