@@ -6,11 +6,18 @@ using UnityEngine.SceneManagement;
 public class Hole : MonoBehaviour
 {
     
+    private AudioSource audio;
+
+    private void Start() {
+        audio = GameObject.FindGameObjectWithTag("HoleAudio").GetComponent<AudioSource>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Ball"))
         {
             if(Mathf.Abs(other.gameObject.GetComponent<Rigidbody2D>().velocity.magnitude) < 10f)
             {
+                audio.Play();
                 if(SceneManager.GetActiveScene().buildIndex == 9)
                     LoadMainMenu();
                 else

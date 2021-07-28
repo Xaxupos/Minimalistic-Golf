@@ -461,7 +461,7 @@ MonoBehaviour:
   hitsText: {fileID: 2039753350}
   maxHitsText: {fileID: 812021129}
   restartText: {fileID: 594318082}
-  maxHits: 3
+  maxHits: 2
   restartButton: {fileID: 675579818}
 --- !u!1 &519420028
 GameObject:

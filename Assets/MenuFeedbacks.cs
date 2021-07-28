@@ -7,7 +7,8 @@ public class MenuFeedbacks : MonoBehaviour
 {
     [SerializeField] private MMFeedbacks menuFeedbacks;
 
-    private void Awake() {
+    private void Start() 
+    {
         menuFeedbacks.PlayFeedbacks();
     }
 }

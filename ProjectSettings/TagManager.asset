@@ -10,6 +10,7 @@ TagManager:
   - Ball
   - Lava
   - Manager
+  - HoleAudio
   layers:
   - Default
   - TransparentFX
